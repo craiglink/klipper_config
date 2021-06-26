@@ -19,9 +19,9 @@ min_temp: 0
 max_temp: 125
 
 [bed_mesh]
-mesh_min: 24,5
-mesh_max: 233,201
-probe_count: 3,3
+mesh_min: 24,2
+mesh_max: 232,205
+probe_count: 5,5
 algorithm: lagrange
 #relative_reference_index: 5
 mesh_pps: 2,2
@@ -89,22 +89,30 @@ faulty_region_17_max: 134.5,116.5
 [screws_tilt_adjust]
 screw1: 101,109
 screw1_name: center screw
-screw2: 2,102
+screw2: 0.1,108
 screw2_name: mid left screw
-screw3: 4,1
-screw3_name: front left screw
-screw4: 95,5
+;screw3: 4,0
+;screw3_name: front left screw
+screw3: 13,5
+screw3_name: front left probe point
+screw4: 101,5
 screw4_name: front center screw
-screw5: 199,0
-screw5_name: front right screw
-screw6: 215,96
+;screw5: 200,0
+;screw5_name: front right screw
+screw5: 219.6,5
+screw5_name: front right probe point
+screw6: 206,108
 screw6_name: mid right screw
-screw7: 198,195
-screw7_name: rear right screw
-screw8: 106,195
+;screw7: 200,200
+;screw7_name: rear right screw
+screw7: 220.6,197
+screw7_name: rear right probe point
+screw8: 101,197
 screw8_name: rear center screw
-screw9: 4,195
-screw9_name: rear left screw
+;screw9: 4,200
+;screw9_name: rear left screw
+screw9: 13,197
+screw9_name: rear left probe point
 horizontal_move_z: 10.
 speed: 96
 screw_thread: CW-M3
